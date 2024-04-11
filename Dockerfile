@@ -1,5 +1,4 @@
-FROM ghcr.io/puppeteer/puppeteer:22.6.4 # pulls the image that contains Puppeteer v16.1.0
-
+FROM ghcr.io/puppeteer/puppeteer:22.6.4
 
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable \
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
